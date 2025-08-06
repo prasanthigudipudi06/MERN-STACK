@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121414;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #cff1a3;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Card-like sections */
+.card, #profile {
+    background: #504f4f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #d3d5db;
+    border-bottom: 2px solid #f2f4f7;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #363436;
+    color: #e7e9ec;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+/* Buttons and Forms */
+button {
+    background-color: #04ec5d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b61515;
+}
+
+input[type="text"] {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none;
+}
+
+/* Quote Section */
+blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote footer {
+    text-align: right;
+    margin-top: 10px;
+    font-style: italic;
+}

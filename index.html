@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Interactive Portfolio</h1>
+    </header>
+
+    <main>
+        <!-- Section for Basic Info -->
+        <section id="profile">
+            <h2 id="profile-name"></h2>
+            <p id="profile-bio"></p>
+            <button id="toggle-info-btn">Show More Info</button>
+            <div id="more-info" class="hidden">
+                <p>This is some hidden information that can be toggled.</p>
+            </div>
+        </section>
+
+        <!-- Section for Dynamically Generated Lists -->
+        <section class="card">
+            <h2>Skills</h2>
+            <ul id="skills-list">
+                <!-- Skills will be dynamically inserted here by JavaScript -->
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Hobbies</h2>
+            <ul id="hobbies-list">
+                <!-- Hobbies will be dynamically inserted here by JavaScript -->
+            </ul>
+        </section>
+
+        <!-- Section for Async Content -->
+        <section class="card">
+            <h2>Inspirational Quote</h2>
+            <blockquote id="quote-display">
+                <p>Loading quote...</p>
+                <footer>- <cite id="quote-author"></cite></footer>
+            </blockquote>
+        </section>
+
+        <!-- Section for User Interaction and Storage -->
+        <section id="feedback" class="card">
+            <h2>Leave Feedback</h2>
+            <form id="feedback-form">
+                <input type="text" id="feedback-input" placeholder="Your feedback..." required>
+                <button type="submit">Submit</button>
+            </form>
+            <h3>Stored Feedback:</h3>
+            <p id="stored-feedback">No feedback saved yet.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
